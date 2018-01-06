@@ -50,5 +50,6 @@ input:focus {
 }
 
 #addNew {
+  display: block;
   display: none;
 }
