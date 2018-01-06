@@ -34,7 +34,7 @@ function populatePics(response) {
     var stillUrl = i.images.fixed_height_still.url;
     var animatedUrl = i.images.fixed_height.webp;
     var imgNode = `<img src=${stillUrl} stillUrl=${stillUrl} animatedUrl=${animatedUrl}>`;
-    var RatingNode = `<p class=rating>Rating: ${i.rating}</p>`
+    var RatingNode = `<p class=rating>Rating: ${i.rating}</p>`;
     var imageDiv =`<div>${imgNode}${RatingNode}`;
     main.append(imageDiv);
   }
