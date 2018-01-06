@@ -31,8 +31,6 @@ function displayResults(searchTerm) {
 function populatePics(response) {
   $('main').empty();
   for (var i of response.data) {
-    console.log(i.images);
-    console.log(i.rating);
     var stillUrl = i.images.fixed_height_still.url;
     var animatedUrl = i.images.fixed_height.webp;
     var imgNode = `<img src=${stillUrl} stillUrl=${stillUrl} animatedUrl=${animatedUrl}>`;
