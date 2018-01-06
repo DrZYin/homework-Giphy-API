@@ -2,6 +2,7 @@
 aside,
 main {
   display: flex;
+  margin: .3rem;
 }
 
 aside {
@@ -13,7 +14,7 @@ main {
 }
 
 main div {
-  margin: 0.4rem;
+  margin: 0 .4rem .8rem .4rem;
 }
 
 .rating {
