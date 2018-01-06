@@ -1,0 +1,53 @@
+.container,
+aside,
+main {
+  display: flex;
+}
+
+aside {
+  flex-direction: column;
+}
+
+main {
+  flex-wrap: wrap;
+}
+
+main div {
+  margin: 0.4rem;
+}
+
+.rating {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: block;
+}
+
+li:hover {
+  background-color:WhiteSmoke;
+}
+
+li,
+input {
+  padding: .5rem;
+  border-width: 1px;
+  border-color: silver;
+  border-style: solid solid none solid
+}
+
+input {
+  border-style: solid
+}
+input:focus {
+    outline: none;
+}
+
+#addNew {
+  display: none;
+}
