@@ -47,6 +47,7 @@ input {
 input {
   border-style: solid
 }
+
 input:focus {
     outline: none;
 }
